@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="C:\Users\veger\Train-Schedule\Train-Schedule\style.css" rel="stylesheet" type="text/css">
-    <title>Train Schedule</title>
+    <link href="C:\Users\veger\Train-Schedule\Train-Schedule\js.js" rel="stylesheet" type="text/js">
+        <title>Train Schedule</title>
 
 </head>
 <body>
@@ -18,19 +19,17 @@
   </div>
 </div>
 
-<div class="card text-white bg-primary mb-3">
-        <div class="card-body">
-                Current Train Schedule
-        </div>
-      </div>
-
 <table id="Train">
     <tr>
-        <th>Train Name</th>
-        <th>Destination</th>
-        <th>Frequency (min)</th>
-        <th>Next Arrival</th>
-        <th>Minutes Away</th>
+        <th>Current train Schedule</th>      
+    </tr>
+
+    <tr>
+        <td>Train Name</td>
+        <td>Destination</td>
+        <td>Frequency (min)</td>
+        <td>Next Arrival</td>
+        <td>Minutes Away</td>
     </tr>
 
             <tr>
@@ -100,28 +99,29 @@
 
 <form>
         <div class="form-group">
-                <label for="trainName">Train Name</label>
-                <input type="name" class="form-control" id="name1">
+                <label for="Name">Train Name</label>
+                <input type="trainName" class="form-control" id="name1">
             </div>
 
         <div class="form-group">
-                <label for="Destination">Destination</label>
-                <input type="DestinationBox" class="form-control" id="Destination1">
+                <label for="DestinationBox">Destination</label>
+                <input type="Destination" class="form-control" id="Destination1">
         </div>
 
         <div class="form-group">
-                <label for="TrainTime">First Train Time (HH:mm - military time)</label>
-                <input type="TrainTimeBox" class="form-control" id="TrainTime1">
+                <label for="TrainTimeBox">First Train Time (HH:mm - military time)</label>
+                <input type="TrainTime" class="form-control" id="TrainTime1">
         </div>
 
         <div class="form-group">
-                <label for="Frequency">Frequency</label>
-                <input type="FrequencyBox" class="form-control" id="Frequency1">
+                <label for="FrequencyBox">Frequency</label>
+                <input type="Frequency" class="form-control" id="Frequency1">
         </div>
+    </form>
 
 
        
-</form>
+
 
 </body>
 </html>
