@@ -1,10 +1,10 @@
 #Train {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-#Train td, #Train th {
+#Train td {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -17,7 +17,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
-  color: white;
+  font-family: 'Times New Roman', Times, serif
 }
+
 
